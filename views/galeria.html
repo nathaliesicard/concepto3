@@ -1,0 +1,51 @@
+{% extends "master.html" %}
+{% block css %}
+<!-- Custom CSS -->
+<link rel="stylesheet" href="/fotorama/fotorama.css" type="text/css">
+<style>
+
+  .fotorama__caption {
+    text-align: center;
+    font-family: inherit !important;
+  }
+
+</style>
+{% endblock %}
+{% block embed %}
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="fotorama"
+             data-nav="thumbs"
+             data-height="100%"
+             data-transition="crossfade"
+             data-allowfullscreen="true"
+        >
+          {% block gallery %}
+          <img src="/img/galeria/Evento-1.jpg" alt="Evento 1" data-caption="Evento 1">
+          <img src="/img/galeria/Evento-2.jpg" alt="Evento 2" data-caption="Evento 2">
+          <img src="/img/galeria/Evento-3.jpg" alt="Evento 3" data-caption="Evento 3">
+          <img src="/img/galeria/Evento-4.jpg" alt="Evento 4" data-caption="Evento 4">
+          <img src="/img/galeria/Evento-5.jpg" alt="Evento 5" data-caption="Evento 5">
+          <img src="/img/galeria/IMSS.jpg" alt="Evento 5" data-caption="Evento 5">
+          <img src="/img/galeria/Eukanuba-1.jpg" alt="Evento 5" data-caption="Evento 5">
+          <img src="/img/galeria/Eukanuba-2.jpg" alt="Evento 5" data-caption="Evento 5">
+          <img src="/img/galeria/PRD.jpg" alt="Evento 5" data-caption="Evento 5">
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+{% endblock %}
+
+{% block scripts %}
+<script src="/fotorama/fotorama.js"></script>
+{% endblock %}
+
