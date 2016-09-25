@@ -18,8 +18,10 @@
     <div class="row">
       <div class="col-xs-12">
         <div class="fotorama"
+             data-width="100%"
+             data-maxheight="100%"
+             data-ratio="800/600"
              data-nav="thumbs"
-             data-height="100%"
              data-transition="crossfade"
              data-allowfullscreen="true"
         >
@@ -28,17 +30,52 @@
           <img src="/img/galeria/Evento-2.jpg" alt="Evento 2" data-caption="Evento 2">
           <img src="/img/galeria/Evento-3.jpg" alt="Evento 3" data-caption="Evento 3">
           <img src="/img/galeria/Evento-4.jpg" alt="Evento 4" data-caption="Evento 4">
-          <img src="/img/galeria/Evento-5.jpg" alt="Evento 5" data-caption="Evento 5">
-          <img src="/img/galeria/IMSS.jpg" alt="Evento 5" data-caption="Evento 5">
-          <img src="/img/galeria/Eukanuba-1.jpg" alt="Evento 5" data-caption="Evento 5">
-          <img src="/img/galeria/Eukanuba-2.jpg" alt="Evento 5" data-caption="Evento 5">
-          <img src="/img/galeria/PRD.jpg" alt="Evento 5" data-caption="Evento 5">
+          <img src="/img/galeria/Evento-5.jpg" alt="Evento 5" data-caption="Concierto de Navidad">
+          <img src="/img/galeria/IMSS.jpg" alt="Evento 5" data-caption="IMSS">
+          <img src="/img/galeria/PRD.jpg" alt="Evento 5" data-caption="PRD">
           {% endblock %}
         </div>
       </div>
     </div>
-  </div>
 
+    <section>
+    <div class="container-fluid">
+      <h3>Visitar otras galerías:</h3>
+      <hr>
+      <div class="flex-group">
+        <div class="wrapper">
+          <a href="/corporativos" class="tipos">
+            <img src="/img/corporativos.jpg" alt="Eventos Corporativos" class="img-responsive">
+            <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Corporativos</h4>
+          </a>
+        </div>
+        <div class="wrapper">
+          <a href="/deportivos" class="tipos">
+            <img src="/img/deportivos.jpg" alt="Eventos Deportivos" class="img-responsive">
+            <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Deportivos</h4>
+          </a>
+        </div>
+        <div class="wrapper">
+          <a href="/culturales" class="tipos">
+            <img src="/img/culturales.jpg" alt="Eventos Culturales" class="img-responsive">
+            <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Culturales</h4>
+          </a>
+        </div>
+        <div class="wrapper">
+          <a href="/aniversarios" class="tipos">
+            <img src="/img/aniversarios.jpg" alt="Eventos de Aniversarios" class="img-responsive">
+            <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Aniversarios</h4>
+          </a>
+        </div>
+        <div class="wrapper">
+          <a href="/equipo" class="tipos">
+            <img src="/img/equipos.jpg" alt="Equipo Concepto3" class="img-responsive">
+            <h4 style="text-transform: uppercase; letter-spacing: 2px; margin-top: 20px;">Técnicos y Equipos</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
 
 
 

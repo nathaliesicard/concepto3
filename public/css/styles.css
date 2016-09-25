@@ -5814,6 +5814,19 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: '28 Days Later';
+  src: url("/fonts/28-days-later/28 Days Later.eot");
+  src: url("/fonts/28-days-later/28 Days Later.woff2") format("woff2"), url("/fonts/28-days-later/28 Days Later.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: '28DaysLater';
+  src: url("/fonts/28-days-later/28DaysLater.woff") format("woff"), url("/fonts/28-days-later/28DaysLater.ttf") format("truetype"), url("/fonts/28-days-later/28DaysLater.svg#28DaysLater") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* Social Icons */
 .social {
   margin: 0;
@@ -6341,3 +6354,38 @@ body {
   flex-basis: 200px;
   width: 200px;
   text-align: center; }
+
+.carousel-inner {
+  max-height: 80vh !important; }
+
+@media (min-width: 768px) {
+  .affix-top .navbar-brand {
+    background: url(/img/logo.png) no-repeat left center;
+    background-size: contain;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 15px; } }
+
+@media (max-width: 767px) {
+  .affix-top .navbar-brand {
+    background: url(/img/logo2.png) no-repeat left center;
+    background-size: contain;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 20px; } }
+
+.affix .navbar-brand {
+  background: url(/img/logo2.png) no-repeat left center;
+  background-size: contain;
+  width: 150px;
+  margin-top: 5px;
+  margin-left: 15px; }
+
+@media (min-width: 768px) {
+  .affix-top .nav > li > a {
+    font-family: '28DaysLater' !important;
+    font-size: 18px; } }
+
+@media (min-width: 768px) {
+  .affix .navbar-right {
+    margin-top: 2.5px; } }
