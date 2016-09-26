@@ -10,7 +10,7 @@ var File = require('vinyl');
 
 function getRoutes(cb) {
   co(function*() {
-    var routes = ['/', '/contacto', '/error', '/nosotros', '/servicios', '/privacidad', '/galeria', '/terminos', '/corporativos', '/culturales', '/equipo', '/deportivos', '/aniversarios'];
+    var routes = ['/', '/contacto', '/error', '/nosotros', '/servicios', '/privacidad', '/galeria', '/terminos', '/corporativos', '/culturales', '/equipo', '/deportivos', '/aniversarios', '/galeria2', '/galeria3'];
 
 
     return routes;

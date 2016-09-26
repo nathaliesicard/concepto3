@@ -209,7 +209,7 @@ p {
 }
 .navbar-default {
   background-color: black;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: black;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -229,7 +229,7 @@ p {
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-size: 12px;
-  color: #222222;
+  color: rgba(255, 255, 255, 0.7);
   padding: 8px 10px;
 }
 .navbar-default .nav > li > a {
@@ -240,15 +240,15 @@ p {
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
-  color: #222222;
+  color: rgba(255, 255, 255, 0.7);
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #fff;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #fff !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -276,23 +276,23 @@ p {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
-    border-color: rgba(34, 34, 34, 0.1);
+    background-color: #000;
+    border-color: #000;
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
+    color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #fff;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: rgba(255, 255, 255, 0.7);
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #fff;
   }
 }
 header {
@@ -430,7 +430,7 @@ section.cta {
   -o-background-size: cover;
   background-position: center;
   background-image: url('../img/bg-cta.jpg');
-  padding: 250px 0;
+  padding: 50px 0;
   height: 90%;
 }
 section.cta .cta-content {
@@ -632,7 +632,7 @@ body {
 @media (max-width: 767px) {
   .affix-top .navbar-brand {
 
-    background: url(/img/logo2.png) no-repeat left center;
+    background: url(/img/logo.png) no-repeat left center;
     background-size: contain;
     width: 150px;
     margin-top: 5px;
@@ -643,7 +643,7 @@ body {
 
 .affix .navbar-brand  {
 
-  background: url(/img/logo2.png) no-repeat left center ;
+  background: url(/img/logo.png) no-repeat left center ;
   background-size: contain;
   width: 150px;
   margin-top: 5px;
@@ -672,7 +672,42 @@ body {
 
 #gradient {
   width: 100%;
-  height: 800px;
   padding: 0px;
   margin: 0px;
 }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #333;
+}
+
+.pattern {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    overflow-y: hidden;
+    background: url("../img/bg-pattern.png"), #7b4397;
+    /* fallback for old browsers */
+    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+
+}
+
+.waves {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  overflow-y: hidden;
+  background: url("../img/waves.png"), #000;
+}
+
+// Images in homepage
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

@@ -43,6 +43,8 @@ var paths = {
   '/deportivos': 'deportivos',
   '/galeria': 'galeria',
   '/equipo': 'equipo',
+  '/galeria2': 'galeria2',
+  '/galeria3': 'galeria3'
 
 };
 
