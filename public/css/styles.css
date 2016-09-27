@@ -6438,7 +6438,7 @@ body {
   transform: scale(1.1); }
 
 #nosotros {
-  height: 100%;
+  min-height: 100%;
   margin: 0px; }
 
 #servicios {
@@ -6458,6 +6458,10 @@ body {
   margin: 0px; }
 
 #galeria {
+  min-height: 100%;
+  margin: 0px; }
+
+#contact {
   min-height: 100%;
   margin: 0px; }
 
