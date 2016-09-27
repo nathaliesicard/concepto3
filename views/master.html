@@ -6,16 +6,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta name="description" content="Concepto 3 Producciones. Eventos, Iluminación, Audio y Video.">
   <meta name="author" content="">
 
   <title>Concepto 3 Producciones</title>
 
-
-  <!-- Custom Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -57,19 +52,34 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
       <ul class="nav navbar-nav navbar-right">
         <li>
+          {% if route == 'index' %}
+          <a class="page-scroll" href="#nosotros">Nosotros</a>
+          {% else %}
           <a class="page-scroll" href="/nosotros">Nosotros</a>
+          {% endif %}
         </li>
         <li>
+          {% if route == 'index' %}
+          <a class="page-scroll" href="#servicios">Servicios</a>
+          {% else %}
           <a class="page-scroll" href="/servicios">Servicios</a>
+          {% endif %}
         </li>
         <li>
+          {% if route == 'index' %}
+          <a class="page-scroll" href="#galeria">Galeria</a>
+          {% else %}
           <a class="page-scroll" href="/galeria">Galeria</a>
+          {% endif %}
         </li>
         <li>
-          <a class="page-scroll" href="/contacto">Contacto</a>
+          <a class="page-scroll" href="/#clientes">Clientes</a>
+
+        </li>
+        <li>
+          <a class="page-scroll" href="/#contact">Contacto</a>
         </li>
       </ul>
       <ul class="list-inline social nav navbar-nav navbar-right hidden-xs">
@@ -119,6 +129,17 @@
             </li>
           </ul>
         </div>
+      </div>
+      <div class="col-xs-6 hidden-xs">
+        <ul class="list-inline">
+      <li><i class="fa fa-envelope"></i>
+        <a href="mailto:info@concepto3.com" target="_blank">info@concepto3.com</a>
+      </li>
+      <li>
+        <i class="fa fa-phone"></i>
+        +52 (55) 5360 2087 y +52 (55) 5360 2024
+      </li>
+        </ul>
       </div>
     </div>
   </div>

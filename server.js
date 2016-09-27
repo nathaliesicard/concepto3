@@ -32,19 +32,16 @@ var router = new Router();
 var paths = {
   '/': 'index',
   '/error': 'error',
-  '/contacto': 'contacto',
   '/servicios': 'servicios',
   '/nosotros': 'nosotros',
   '/privacidad': 'privacidad',
   '/terminos': 'terminos',
   '/corporativos': 'corporativos',
   '/culturales': 'culturales',
-  '/aniversarios': 'aniversarios',
+  '/expos': 'expos',
   '/deportivos': 'deportivos',
   '/galeria': 'galeria',
-  '/equipo': 'equipo',
-  '/galeria2': 'galeria2',
-  '/galeria3': 'galeria3'
+  '/sociales': 'sociales'
 
 };
 
