@@ -6381,9 +6381,12 @@ body {
   flex-direction: column;
   align-items: center;
   flex-grow: 0;
-  flex-basis: 200px;
-  width: 200px;
+  flex-basis: 180px;
+  width: 180px;
   text-align: center; }
+
+.wrapper p {
+  margin-bottom: 10px; }
 
 .carousel-inner {
   height: 90%; }
@@ -6464,7 +6467,6 @@ body {
   margin: 0px; }
 
 #galeria {
-  min-height: 100%;
   margin: 0px; }
 
 #contact {
