@@ -42,7 +42,6 @@ var paths = {
   '/deportivos': 'deportivos',
   '/galeria': 'galeria',
   '/sociales': 'sociales'
-
 };
 
 Object.keys(paths).forEach(function(path) {

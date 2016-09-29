@@ -6225,7 +6225,6 @@ section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
   color: white;
-  max-width: 600px;
   font-size: 30px; }
 
 @media (min-width: 768px) {
@@ -6387,6 +6386,23 @@ body {
 
 .wrapper p {
   margin-bottom: 10px; }
+
+.flex-group-clientes {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap; }
+
+.wrapper-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  flex-basis: 150px;
+  width: 150px;
+  text-align: center; }
 
 .carousel-inner {
   height: 90%; }
