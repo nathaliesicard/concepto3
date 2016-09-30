@@ -6409,9 +6409,14 @@ body {
 
 @media (min-width: 768px) {
   .slider {
-    font-size: 50px; }
-  .carousel-caption {
-    bottom: 25% !important; } }
+    font-size: 50px; } }
+
+@media (max-width: 767px) {
+  .slider {
+    font-size: 28px; } }
+
+.carousel-caption {
+  bottom: 15% !important; }
 
 @media (min-width: 768px) {
   .affix-top .navbar-brand {
